@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daftar Produk - Usaha Merah Putih</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+
+    <header class="header-merah">
+    <div class="header-container">
+        <div class="header-text">
+            <h1>Usaha Merah Putih</h1>
+            <p>Platform pendataan produk UMKM</p>
+        </div>
+
+        <nav class="header-nav">
+            <a href="index.html" class="nav-link">Form Input</a>
+            <a href="#" class="nav-link active">Data Produk</a>
+        </nav>
+    </div>
+</header>
+
+    <main class="main-content">
+        <div class="page-heading">
+            <h1>Daftar Produk UMKM</h1>
+            <p>Kelola produk yang tersedia di Usaha Merah Putih.</p>
+        </div>
+
+        <section class="card">
+            <div class="list-header">
+                <div>
+                    <h2 class="card-title">Semua Produk</h2>
+                    <p class="card-description">Daftar produk yang tersimpan.</p>
+                </div>
+
+                <span class="product-count">
+                    Total Produk: <span id="jumlahProduk">0</span> produk
+                </span>
+            </div>
+
+            <div id="feedback"></div>
+
+            <div id="daftarProduk" class="product-grid"></div>
+
+        </section>
+    </main>
+
+    <footer class="footer">
+        &copy; 2026 Usaha Merah Putih
+    </footer>
+
+    <script src="./assets/js/logic.js"></script>
+</body>
+</html>
+
